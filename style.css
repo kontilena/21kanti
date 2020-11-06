@@ -1,3 +1,15 @@
+@font-face{
+  font-family: 'Caveat';
+  src: url('../fonts/Caveat-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Caveat';
+  src: url('../fonts/Caveat-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
 body {
   margin: 0;
   min-width: 960px;
@@ -192,3 +204,4 @@ body {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
 }
+p{font-family: Caveat;}
